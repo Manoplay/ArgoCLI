@@ -9,7 +9,7 @@ isRepl = False
 
 session = argoscuolanext.Session()
 history = InMemoryHistory()
-completer = WordCompleter(["docenti" ,"esci", "anagrafica", "giustifica", "voti", "assenze", "argomenti", "filtro"])
+completer = WordCompleter(["docenti" ,"esci", "anagrafica", "giustifica", "voti", "assenze", "argomenti", "filtro", "compiti"])
 if sys.stdout.isatty():
     ps = PromptSession(history=history, enable_history_search=True, auto_suggest=AutoSuggestFromHistory(), completer=completer, complete_while_typing=False)
 print("Argo CLI")
