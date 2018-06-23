@@ -6,3 +6,6 @@ Per assicurarsi che l'esecuzione vada a buon fine, assicurarsi che siano soddisf
 * `pip`
 * `ArgoScuolaNext`(pip)
 * `prompt_toolkit` (pip)
+
+# Installare
+Eseguire lo script `installa-dipendenze.sh` e poi copiare `argo-cli.py` in una cartella del `$PATH` (tipo /bin o /usr/local/bin). Eseguire lo script `installa.py` per un'installazione guidata.
