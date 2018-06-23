@@ -1,0 +1,8 @@
+# Eseguire
+Per eseguire questo file, basta eseguire
+`python3 argo-cli.py` da riga di comando.
+
+Per assicurarsi che l'esecuzione vada a buon fine, assicurarsi che siano soddisfatte le seguenti dipendenze:
+* `pip`
+* `ArgoScuolaNext`(pip)
+* `prompt_toolkit` (pip)
