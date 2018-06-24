@@ -13,7 +13,7 @@ completer = WordCompleter(["docenti" ,"esci", "anagrafica", "giustifica", "voti"
 if sys.stdout.isatty():
     ps = PromptSession(history=history, enable_history_search=True, auto_suggest=AutoSuggestFromHistory(), completer=completer, complete_while_typing=False)
 print("Argo CLI")
-login = session.login("ss16825", "mascolo", "manoplay");
+login = session.login("scuola", "username", "password");
 print("Accesso eseguito")
 command = ""
 while command != "esci":
