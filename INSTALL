@@ -1,11 +1,5 @@
-# Eseguire
-Per eseguire questo file, basta eseguire
-`python3 argo-cli.py` da riga di comando.
+# Installazione
+Per installare le dipendenze richieste è sufficiente eseguire da riga di comando il seguente comando:
+> python3 -m pip install -r requirements.txt
 
-Per assicurarsi che l'esecuzione vada a buon fine, assicurarsi che siano soddisfatte le seguenti dipendenze:
-* `pip`
-* `argoscuolanext`(pip)
-* `prompt_toolkit` (pip)
-
-# Installare
-Eseguire lo script `installa-dipendenze.sh` e poi copiare `argo-cli.py` in una cartella del `$PATH` (tipo /bin o /usr/local/bin). Eseguire lo script `installa.sh` per un'installazione guidata.
+Assicurarsi che `python` e `pip` sia installato, questo può variare in base al sistema operativo in uso.

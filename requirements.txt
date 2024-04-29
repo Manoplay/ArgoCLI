@@ -1,0 +1,3 @@
+argoscuolanext==0.9
+prompt_toolkit
+requests
